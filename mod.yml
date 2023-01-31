@@ -1,0 +1,14 @@
+title: Endless Magic
+originalAuthor: Shananas
+game: kh2
+description: Removes magic finishers so you can use it until you run out of MP just like lion sora
+assets:
+- name: 00battle.bin
+  method: binarc
+  source:
+  - name: magc
+    method: listpatch
+    type: List
+    source:
+    - name: MagcList.yml
+      type: magc
